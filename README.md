@@ -41,3 +41,6 @@ describe('Array', function() {
   })
 });
 ```
+We want to concentrate on just the block of tests that run for `Array.indexOf()`.
+We can place our cursor on the line that has the describe statement and use our
+shortcut `<leader>o` for example.
