@@ -1,13 +1,13 @@
 # vim-solo
 
-## Solo blocks of tests or single tests for Mocha or Jasmine
+## Solo blocks of tests or single tests for Mocha and Jasmine
 
 ### Purpose
 In a mixing console, soloing single (or groups of) channels allows an engineer
 to immediately ascertain problems or work with a single track without having to
 mute or reset the levels of all other tracks.
 During the writing and updating of tests, it helps to do the same thing; be
-able to run just a single test.
+able to run just a single or group of tests.
 
 vim-solo allows one to solo a `describe()` block or single tests defined by `it()`.
 ### Installation
