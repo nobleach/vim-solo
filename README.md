@@ -22,19 +22,22 @@ vim-solo allows one to solo a `describe()` block or single tests defined by `it(
 Imagine we have the following code:
 
 ```
-describe('#reducers', function() {
-    describe('.products' function() {
-        it.only('should reduce a product response and return a new state' function() {
-            // test and assertions
-        });
-
-        it('should return the default state if nothing has changed' function() {
-            // test and assertions
-        });
-
-        it('should return the default state if action is unrecognized' function() {
-            // test and assertions
-        });
+describe('Array', function() {
+  describe('#indexOf()', function() {
+    it('should return -1 when the value is not present', function() {
+      [1,2,3].indexOf(5).should.equal(-1);
+      [1,2,3].indexOf(0).should.equal(-1);
     });
+
+    it('should return the index when an element matches a value', function() {
+      [1,2,3].indexOf(2).should.equal(1);
+    });
+  });
+
+  describe('#join()', function() {
+    it('should join all valued in an array with a supplied string', function() {
+      ['hello', 'world'].join('').should.equal('helloworld');
+    });
+  })
 });
 ```
