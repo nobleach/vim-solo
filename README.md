@@ -1,6 +1,6 @@
 # vim-solo
 
-## Solo blocks of tests or single tests for Mocha or Jasmine
+## Solo blocks of tests or single tests for Mocha
 
 ### Purpose
 In a mixing console, soloing single (or groups of) channels allows an engineer
