@@ -13,14 +13,14 @@ vim-solo allows one to solo a `describe()` block or single tests defined by `it(
 ### Installation
 This plugin follows the standard runtime path structure, and as such it can be installed with a variety of plugin managers:
 
-*  [Pathogen][11]
+*  [Pathogen]
   *  `git clone https://github.com/nobleach/vim-solo ~/.vim/bundle/vim-solo`
   *  Remember to run `:Helptags` to generate help tags
-*  [NeoBundle][12]
+*  [NeoBundle]
   *  `NeoBundle 'nobleach/vim-solo'`
-*  [Vundle][13]
+*  [Vundle]
   *  `Plugin 'nobleach/vim-solo'`
-*  [Plug][40]
+*  [Plug]
   *  `Plug 'vim-airline/vim-airline'`
 *  manual
   *  copy all of the files into your `~/.vim` directory
