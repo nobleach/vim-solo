@@ -17,6 +17,14 @@ vim-solo allows one to solo a `describe()` block or single tests defined by `it(
 
 ### Configuration
 #### Map a shortcut
+By default this function is mapped to `<leader>o`. I would never tell you how to
+run your life or much less, how to run your vim. So, if you'd this package checks
+to see if you already have a mapping for `<leader>o`. If you do, it does nothing.
+
+If you'd like to map something different, add this to your `.vimrc`:
+```
+nnoremap <leader>z :call ToggleOnly()<cr>
+```
 
 ### Usage
 Imagine we have the following code:

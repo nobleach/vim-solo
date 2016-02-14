@@ -15,5 +15,5 @@ function! ToggleOnly()
 endfunction
 
 if mapcheck("\<leader>o", "N") == ""
-    nnoremap <leader>o :ToggleOnly<cr>
+    nnoremap <leader>o :call ToggleOnly()<cr>
 endif
