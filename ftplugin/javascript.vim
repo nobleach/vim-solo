@@ -13,3 +13,7 @@ function! ToggleOnly()
         exe "normal! :s/it/it.only/\<cr>"
     endif
 endfunction
+
+if mapcheck("\<leader>o", "N") == ""
+    nnoremap <leader>o :ToggleOnly<cr>
+endif
